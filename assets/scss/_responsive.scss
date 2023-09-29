@@ -1,0 +1,818 @@
+    @media screen and (max-width: 575px) {
+        h1 {
+            font-size: 48px !important;
+        }
+        .banner {
+            padding-top: 150px !important;
+        }
+        h2 {
+            font-size: 28px !important;
+        }
+        .features {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            .cover-portion {
+                padding: 30px;
+                height: 200px !important;
+                h2 {
+                    margin: 0 !important;
+                }
+            }
+            .features-wrapper {
+                margin-top: 0 !important;
+            }
+            .c1,
+            .c2 {
+                .card {
+                    border-bottom-color: $white !important;
+                }
+            }
+            .c2,
+            .c4 {
+                .card {
+                    border-left-color: $white !important;
+                }
+            }
+        }
+        .icon-wrap {
+            img {
+                width: 50px !important;
+            }
+        }
+        h5 {
+            font-size: 16px !important;
+        }
+        .card {
+            margin: 0 !important;
+        }
+        .card .card-body {
+            padding: 30px !important;
+        }
+        .cover-portion h2 {
+            font-size: 28px !important;
+            line-height: 1.5 !important;
+        }
+        .product-listing {
+            .listing-card {
+                .details-wrap {
+                    padding: 30px !important;
+                    padding-bottom: 100px !important;
+                }
+                .buy-now-button {
+                    top: inherit !important;
+                    right: inherit !important;
+                    bottom: 30px !important;
+                    left: 40% !important;
+                }
+            }
+            .not-listed {
+                padding-top: 20px;
+                h4,
+                h4 a span {
+                    font-size: 18px !important;
+                }
+                a {
+                    margin-top: 10px;
+                }
+            }
+        }
+        .iot-features {
+            .col-6:nth-child(1),
+            .col-6:nth-child(4),
+            .col-6:nth-child(5),
+            .col-6:nth-child(8) {
+                .card .card-body {
+                    background-color: $white7 !important;
+                    .text-wrap {
+                        h5 {
+                            color: $secondary !important;
+                        }
+                    }
+                    .icon-wrap {
+                        svg path {
+                            fill: $primary !important;
+                        }
+                    }
+                    .icon-streetlight {
+                        svg path {
+                            fill: none !important;
+                            stroke: $primary !important;
+                        }
+                    }
+                }
+            }
+            .col-6:nth-child(2),
+            .col-6:nth-child(3),
+            .col-6:nth-child(6),
+            .col-6:nth-child(7) {
+                .card .card-body {
+                    background-color: $black !important;
+                    .text-wrap {
+                        h5 {
+                            color: $white !important;
+                        }
+                    }
+                    .icon-wrap {
+                        svg path {
+                            fill: $white !important;
+                        }
+                    }
+                    .tcu,
+                    .v-machines {
+                        svg path,
+                        svg circle {
+                            fill: none !important;
+                            stroke: $white !important;
+                        }
+                    }
+                }
+            }
+            .cover-portion {
+                display: none;
+            }
+        }
+        .main-features {
+            h3 {
+                font-size: 24px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 20px !important;
+            }
+            p.fs-md-18 {
+                margin-bottom: 20px !important;
+            }
+            .main-features-card {
+                margin-bottom: 1rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .contact-us {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            .cover-portion {
+                padding: 30px;
+                height: auto !important;
+                h2 {
+                    margin: 0 !important;
+                }
+            }
+            .contact-wrapper {
+                margin: 0 !important;
+                .col-xxl-10 {
+                    padding: 0 !important;
+                }
+                .contact-form {
+                    padding: 30px !important;
+                    h3 {
+                        font-size: 20px !important;
+                        margin-bottom: 30px !important;
+                    }
+                    .btn {
+                        width: 100% !important;
+                        border-color: transparent !important;
+                    }
+                }
+            }
+        }
+        .features,
+        .contact-us,
+        .subscribe {
+            .container {
+                padding: 0 !important;
+            }
+        }
+        .accordion-button {
+            padding: 30px !important;
+            font-size: 20px !important;
+        }
+        .accordion-body {
+            padding: 0 30px 30px 30px !important;
+            p {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .subscribe {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            .cover-portion {
+                padding: 30px;
+                height: auto !important;
+                h2 {
+                    margin: 0 !important;
+                }
+            }
+            .subscribe-wrapper {
+                margin-top: 0 !important;
+                .p-40px {
+                    padding: 30px !important;
+                }
+                input {
+                    font-size: 16px !important;
+                }
+                .send-button {
+                    @include round(48px);
+                    i {
+                        font-size: 18px !important;
+                    }
+                }
+            }
+        }
+        #myBtn {
+            bottom: 70px !important;
+        }
+        .modal-body {
+            .details-wrap {
+                padding: 30px 0 !important;
+                margin: 0 !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 576px) and (max-width: 767px) {
+        h1 {
+            font-size: 48px !important;
+        }
+        .banner {
+            padding-top: 150px !important;
+        }
+        h2 {
+            font-size: 28px !important;
+        }
+        .features {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            .cover-portion {
+                padding: 30px;
+                height: 200px !important;
+                h2 {
+                    margin: 0 !important;
+                }
+            }
+            .features-wrapper {
+                margin-top: 0 !important;
+            }
+            .c1,
+            .c2 {
+                .card {
+                    border-bottom-color: $white !important;
+                }
+            }
+            .c2,
+            .c4 {
+                .card {
+                    border-left-color: $white !important;
+                }
+            }
+        }
+        .icon-wrap {
+            img {
+                width: 50px !important;
+            }
+        }
+        h5 {
+            font-size: 16px !important;
+        }
+        .card {
+            margin: 0 !important;
+        }
+        .card .card-body {
+            padding: 30px !important;
+        }
+        .cover-portion h2 {
+            font-size: 28px !important;
+            line-height: 1.5 !important;
+        }
+        .product-listing {
+            .listing-card {
+                .details-wrap {
+                    padding: 30px !important;
+                    padding-bottom: 100px !important;
+                }
+                .buy-now-button {
+                    top: inherit !important;
+                    right: inherit !important;
+                    bottom: 30px !important;
+                    left: 40% !important;
+                }
+            }
+            .not-listed {
+                padding-top: 20px;
+                h4,
+                h4 a span {
+                    font-size: 18px !important;
+                }
+                a {
+                    margin-top: 10px;
+                }
+            }
+        }
+        .iot-features {
+            .col-6:nth-child(1),
+            .col-6:nth-child(4),
+            .col-6:nth-child(5),
+            .col-6:nth-child(8) {
+                .card .card-body {
+                    background-color: $white7 !important;
+                    .text-wrap {
+                        h5 {
+                            color: $secondary !important;
+                        }
+                    }
+                    .icon-wrap {
+                        svg path {
+                            fill: $primary !important;
+                        }
+                    }
+                    .icon-streetlight {
+                        svg path {
+                            fill: none !important;
+                            stroke: $primary !important;
+                        }
+                    }
+                }
+            }
+            .col-6:nth-child(2),
+            .col-6:nth-child(3),
+            .col-6:nth-child(6),
+            .col-6:nth-child(7) {
+                .card .card-body {
+                    background-color: $black !important;
+                    .text-wrap {
+                        h5 {
+                            color: $white !important;
+                        }
+                    }
+                    .icon-wrap {
+                        svg path {
+                            fill: $white !important;
+                        }
+                    }
+                    .tcu,
+                    .v-machines {
+                        svg path,
+                        svg circle {
+                            fill: none !important;
+                            stroke: $white !important;
+                        }
+                    }
+                }
+            }
+            .cover-portion {
+                display: none;
+            }
+        }
+        .main-features {
+            h3 {
+                font-size: 24px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 20px !important;
+            }
+            p.fs-md-18 {
+                margin-bottom: 20px !important;
+            }
+            .main-features-card {
+                margin-bottom: 1rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .contact-us {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            .cover-portion {
+                padding: 30px;
+                height: auto !important;
+                h2 {
+                    margin: 0 !important;
+                }
+            }
+            .contact-wrapper {
+                margin: 0 !important;
+                .col-xxl-10 {
+                    padding: 0 !important;
+                }
+                .contact-form {
+                    padding: 30px !important;
+                    h3 {
+                        font-size: 20px !important;
+                        margin-bottom: 30px !important;
+                    }
+                    .btn {
+                        width: 100% !important;
+                        border-color: transparent !important;
+                    }
+                }
+            }
+        }
+        .features,
+        .contact-us,
+        .subscribe {
+            .container {
+                padding: 0 !important;
+            }
+        }
+        .accordion-button {
+            padding: 30px !important;
+            font-size: 20px !important;
+        }
+        .accordion-body {
+            padding: 0 30px 30px 30px !important;
+            p {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .subscribe {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            .cover-portion {
+                padding: 30px;
+                height: auto !important;
+                h2 {
+                    margin: 0 !important;
+                }
+            }
+            .subscribe-wrapper {
+                margin-top: 0 !important;
+                .p-40px {
+                    padding: 30px !important;
+                }
+                input {
+                    font-size: 16px !important;
+                }
+                .send-button {
+                    @include round(48px);
+                    i {
+                        font-size: 18px !important;
+                    }
+                }
+            }
+        }
+        #myBtn {
+            bottom: 70px !important;
+        }
+        .modal-body {
+            .details-wrap {
+                padding: 30px 0 !important;
+                margin: 0 !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        h1 {
+            font-size: 48px !important;
+        }
+        h2 {
+            font-size: 36px !important;
+        }
+        .features {
+            .c1,
+            .c2 {
+                .card {
+                    border-bottom-color: $white !important;
+                }
+            }
+            .c2,
+            .c4 {
+                .card {
+                    border-left-color: $white !important;
+                }
+            }
+            .card {
+                margin-left: 0 !important;
+            }
+        }
+        .listing-card {
+            .details-wrap {
+                padding: 30px !important;
+                padding-bottom: 100px !important;
+            }
+            .buy-now-button {
+                top: inherit !important;
+                right: inherit !important;
+                bottom: 30px !important;
+                left: 40% !important;
+            }
+        }
+        .not-listed {
+            h4,
+            h4 a span {
+                font-size: 18px !important;
+            }
+            a {
+                margin-top: 10px;
+            }
+        }
+        .iot-features {
+            .col-6:nth-child(1),
+            .col-6:nth-child(4),
+            .col-6:nth-child(5),
+            .col-6:nth-child(8) {
+                .card .card-body {
+                    background-color: $white7 !important;
+                    .text-wrap {
+                        h5 {
+                            color: $secondary !important;
+                        }
+                    }
+                    .icon-wrap {
+                        svg path {
+                            fill: $primary !important;
+                        }
+                    }
+                    .icon-streetlight {
+                        svg path {
+                            fill: none !important;
+                            stroke: $primary !important;
+                        }
+                    }
+                }
+            }
+            .col-6:nth-child(2),
+            .col-6:nth-child(3),
+            .col-6:nth-child(6),
+            .col-6:nth-child(7) {
+                .card .card-body {
+                    background-color: $black !important;
+                    .text-wrap {
+                        h5 {
+                            color: $white !important;
+                        }
+                    }
+                    .icon-wrap {
+                        svg path {
+                            fill: $white !important;
+                        }
+                    }
+                    .tcu,
+                    .v-machines {
+                        svg path,
+                        svg circle {
+                            fill: none !important;
+                            stroke: $white !important;
+                        }
+                    }
+                }
+            }
+            .cover-portion {
+                display: none;
+            }
+        }
+        .main-features {
+            h3 {
+                font-size: 32px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 20px !important;
+            }
+            p.fs-md-18 {
+                margin-bottom: 20px !important;
+            }
+            .main-features-card {
+                margin-bottom: 1rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .contact-us {
+            .cover-portion {
+                height: 500px !important;
+            }
+            .contact-wrapper {
+                margin-top: -240px !important;
+            }
+        }
+        .subscribe {
+            .cover-portion {
+                height: 300px !important;
+            }
+            .subscribe-wrapper {
+                margin-top: -70px !important;
+            }
+        }
+        #myBtn {
+            bottom: 90px !important;
+        }
+        div.cover-portion {
+            margin-left: 20px !important;
+            margin-right: 20px !important;
+        }
+        .modal-body {
+            .details-wrap {
+                padding: 30px 0 !important;
+                margin: 0 !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+        h1 {
+            font-size: 56px !important;
+        }
+        h2 {
+            font-size: 42px !important;
+        }
+        .features {
+            .cover-portion {
+                height: 300px !important;
+            }
+            .features-wrapper {
+                margin-top: -92px !important;
+            }
+            .icon-wrap {
+                img {
+                    width: 50px !important;
+                }
+            }
+            h5 {
+                font-size: 18px !important;
+            }
+        }
+        .listing-card {
+            .details-wrap {
+                padding: 30px !important;
+                padding-bottom: 100px !important;
+            }
+            .buy-now-button {
+                top: inherit !important;
+                right: inherit !important;
+                bottom: 30px !important;
+                left: 40% !important;
+            }
+        }
+        .iot-features {
+            .card .card-body {
+                padding: 30px !important;
+            }
+            .icon-wrap {
+                img,
+                svg {
+                    height: 50px !important;
+                }
+            }
+            h5 {
+                font-size: 18px !important;
+            }
+            .cover-portion {
+                height: 300px !important;
+                margin-top: -194px !important;
+            }
+        }
+        .main-features {
+            h3 {
+                font-size: 32px !important;
+                line-height: 1.5 !important;
+                margin-bottom: 20px !important;
+            }
+            p.fs-md-18 {
+                margin-bottom: 20px !important;
+            }
+        }
+        .contact-us {
+            .cover-portion {
+                height: 500px !important;
+                h2 {
+                    margin-top: 100px !important;
+                }
+            }
+            .contact-wrapper {
+                margin-top: -294px !important;
+            }
+        }
+        .subscribe {
+            .cover-portion {
+                height: 300px !important;
+            }
+            .subscribe-wrapper {
+                margin-top: -70px !important;
+            }
+        }
+        #myBtn {
+            bottom: 90px !important;
+        }
+        div.cover-portion {
+            margin-left: 28px !important;
+            margin-right: 28px !important;
+        }
+    }
+    
+    @media screen and (min-width: 1200px) and (max-width: 1399px) {
+        h1 {
+            font-size: 64px !important;
+        }
+        .features {
+            .cover-portion {
+                height: 400px !important;
+            }
+            .features-wrapper {
+                margin-top: -115px !important;
+            }
+            .icon-wrap {
+                img {
+                    width: 50px !important;
+                }
+            }
+        }
+        .iot-features {
+            .card .card-body {
+                padding: 30px !important;
+            }
+            .icon-wrap {
+                img,
+                svg {
+                    height: 50px !important;
+                }
+            }
+            h5 {
+                font-size: 18px !important;
+            }
+            .cover-portion {
+                height: 400px !important;
+                margin-top: -231.5px !important;
+            }
+        }
+        #myBtn {
+            bottom: 90px !important;
+        }
+        .contact-us {
+            .contact-wrapper {
+                margin-top: -386px !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 1401px) and (max-width: 1700px) {
+        .features {
+            .cover-portion {
+                height: 400px !important;
+            }
+            .features-wrapper {
+                margin-top: -134.5px !important;
+            }
+            .icon-wrap {
+                img {
+                    width: 50px !important;
+                }
+            }
+        }
+        .iot-features {
+            .card .card-body {
+                padding: 30px !important;
+            }
+            .icon-wrap {
+                img,
+                svg {
+                    height: 50px !important;
+                }
+            }
+            h5 {
+                font-size: 18px !important;
+            }
+            .cover-portion {
+                height: 500px !important;
+                margin-top: -269px !important;
+            }
+        }
+        #myBtn {
+            bottom: 90px !important;
+        }
+        .contact-us {
+            .contact-wrapper {
+                margin-top: -358.6px !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 1701px) and (max-width: 1919px) {
+        .features-wrapper {
+            margin-top: -164.75px !important;
+        }
+        .contact-us {
+            .contact-wrapper {
+                margin-top: -358px !important;
+            }
+            .cover-portion {
+                height: 750px !important;
+            }
+            .col-xxl-8 {
+                width: 73% !important;
+            }
+            .col-xxl-4 {
+                width: 27% !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 1921px) {}
+    
+    @media screen and (min-width: 1700px) {
+        .container {
+            max-width: 1620px !important;
+        }
+    }
