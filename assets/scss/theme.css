@@ -131,6 +131,12 @@
   .iot-features .cover-portion {
     display: none;
   }
+  .iot-features h5 {
+    margin-bottom: 0 !important;
+  }
+  .iot-features .icon-wrap svg {
+    height: 50px !important;
+  }
   .main-features h3 {
     font-size: 24px !important;
     line-height: 1.5 !important;
@@ -669,6 +675,9 @@
     margin-left: 28px !important;
     margin-right: 28px !important;
   }
+  .c2 div.card {
+    border-right: 2px solid #ddd !important;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   h1 {
@@ -734,6 +743,9 @@
   .contact-us .contact-wrapper {
     margin-top: -358.6px !important;
   }
+  .c2 div.card {
+    border-right: 2px solid #ddd !important;
+  }
 }
 @media screen and (min-width: 1701px) and (max-width: 1919px) {
   .features-wrapper {
@@ -752,9 +764,22 @@
     width: 27% !important;
   }
 }
+@media screen and (min-width: 1900px) {
+  .contact-us .col-xxl-8 {
+    width: 73% !important;
+  }
+  .contact-us .col-xxl-4 {
+    width: 27% !important;
+  }
+}
 @media screen and (min-width: 1700px) {
   .container {
     max-width: 1620px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .features .c2 .card, .features .c3 .card, .features .c4 .card {
+    border-left: 0 !important;
   }
 }
 .select2-container {
@@ -1416,13 +1441,13 @@ footer .btn-primary-animate:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.webp");
   background-size: cover;
 }
 
 .features .cover-portion {
   height: 500px;
-  background-image: url("../images/features-bg.jpg");
+  background-image: url("../images/features-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1469,7 +1494,7 @@ footer .btn-primary-animate:focus {
 }
 .iot-features .cover-portion {
   height: 750px;
-  background-image: url("../images/iot-bg.jpg");
+  background-image: url("../images/iot-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -331px;
@@ -1487,7 +1512,7 @@ footer .btn-primary-animate:focus {
 
 .contact-us .cover-portion {
   height: 750px;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("../images/contact-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1504,16 +1529,10 @@ footer .btn-primary-animate:focus {
   z-index: 2;
   position: relative;
 }
-.contact-us .col-xxl-8 {
-  width: 73% !important;
-}
-.contact-us .col-xxl-4 {
-  width: 27% !important;
-}
 
 .subscribe .cover-portion {
   height: 450px;
-  background-image: url("../images/newsletter-bg.jpg");
+  background-image: url("../images/newsletter-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1626,6 +1645,10 @@ footer .btn-primary-animate:focus {
 }
 .phone-card .card-body {
   position: relative;
+}
+
+.p-1px {
+  margin: 1px !important;
 }
 
 .h-flex-100 {
