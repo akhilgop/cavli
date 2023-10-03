@@ -30,14 +30,14 @@ footer {
     min-height: 100vh;
     background-repeat: no-repeat;
     @include flex-hv-cntr;
-    background-image: url('../images/banner-bg.webp');
+    background-image: url("../images/banner-bg.webp");
     background-size: cover;
 }
 
 .features {
     .cover-portion {
         height: 500px;
-        background-image: url('../images/features-bg.webp');
+        background-image: url("../images/features-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -93,10 +93,10 @@ footer {
     }
     .cover-portion {
         height: 750px;
-        background-image: url('../images/iot-bg.webp');
+        background-image: url("../images/iot-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: -331px;
+        margin-top: -331.5px;
         z-index: -1;
     }
 }
@@ -115,7 +115,7 @@ footer {
 .contact-us {
     .cover-portion {
         height: 750px;
-        background-image: url('../images/contact-bg.webp');
+        background-image: url("../images/contact-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         h2 {
@@ -134,13 +134,12 @@ footer {
         z-index: 2;
         position: relative;
     }
-    
 }
 
 .subscribe {
     .cover-portion {
         height: 450px;
-        background-image: url('../images/newsletter-bg.webp');
+        background-image: url("../images/newsletter-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -155,12 +154,10 @@ footer {
 }
 
 .email-card {
-    @include btn-animate($primary,
-    $white,
-    $secondary);
+    @include btn-animate($primary, $white, $secondary);
     border: 1px solid $primary !important;
     &:hover,
-    &:Active,
+    &:active,
     &:focus {
         background-color: darken($color: $primary, $amount: 10%) !important;
         border-color: darken($color: $primary, $amount: 10%) !important;
@@ -171,12 +168,10 @@ footer {
 }
 
 .phone-card {
-    @include btn-animate($secondary,
-    $white,
-    $black2);
+    @include btn-animate($secondary, $white, $black2);
     border: 1px solid $secondary !important;
     &:hover,
-    &:Active,
+    &:active,
     &:focus {
         background-color: $black1 !important;
         border-color: $black1 !important;
@@ -186,7 +181,6 @@ footer {
     }
 }
 
-.p-1px 
-{
+.p-1px {
     margin: 1px !important;
 }

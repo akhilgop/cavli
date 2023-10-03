@@ -1497,7 +1497,7 @@ footer .btn-primary-animate:focus {
   background-image: url("../images/iot-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -331px;
+  margin-top: -331.5px;
   z-index: -1;
 }
 
@@ -1591,7 +1591,7 @@ footer .btn-primary-animate:focus {
 .email-card:hover::before {
   height: 0%;
 }
-.email-card:hover, .email-card:Active, .email-card:focus {
+.email-card:hover, .email-card:active, .email-card:focus {
   background-color: #5320a1 !important;
   border-color: #5320a1 !important;
 }
@@ -1639,7 +1639,7 @@ footer .btn-primary-animate:focus {
 .phone-card:hover::before {
   height: 0%;
 }
-.phone-card:hover, .phone-card:Active, .phone-card:focus {
+.phone-card:hover, .phone-card:active, .phone-card:focus {
   background-color: #111 !important;
   border-color: #111 !important;
 }
